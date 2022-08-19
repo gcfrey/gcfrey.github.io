@@ -4,6 +4,15 @@
 
 body {background-color: #212121;}
 
+.indicator{
+  background-color:red;
+  position: fixed;
+  width: 1vw;
+  height: 1vw;;
+  left: 2vw;
+  top: 2vw;
+}
+
 .font-menu {
   font-size: clamp(12px, 1vw, 33px);
   font-family: Hack, monospace;
@@ -89,7 +98,7 @@ a:hover {color: #8254ff; transition: 0.5s all ease;}
 }
 
 .mobile-title{
-  padding-top: 2.4vw;
+  top: 2.4vw;
 }
 	
 .mobilemenu a {
