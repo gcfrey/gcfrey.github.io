@@ -9,17 +9,17 @@
 		<meta name="description" content="Giacomo Frey's portfolio">
 		<meta name="author" content="Giacomo Frey">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="jquery.js"></script> 
-		<script> 
-		    $(function(){
-		      $("#includedContent").load("header.html"); 
-		    });
-		</script> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type='text/javascript'>
+		   $.get('header.html',function(response){ 
+		    $('#header').html(response); 
+		   });
+		</script>
 		
 	</head>
 	
 	<body>
-		<div id="includedContent"></div>
-		test
+		<div id="header"></div>
+		test1
 	</body>
 
