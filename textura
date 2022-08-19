@@ -1,0 +1,16 @@
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Giacomo Frey: Textura</title>
+		<meta name="description" content="Description of Giacomo Frey's work Textura">
+		<meta name="author" content="Giacomo Frey">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="include-html.js"></script>
+	</head>
+  
+  <body>
+    <div w3-include-html="header.html"></div>
+  </body>
+  
+</html>
