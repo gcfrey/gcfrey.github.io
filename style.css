@@ -9,13 +9,13 @@ body {background-color: #212121;}
   position: fixed;
   width: 1vw;
   height: 1vw;;
-  left: 2vw;
-  top: 2vw;
+  left: 4vw;
+  top: 2.4vw;
 }
 
 .font-menu {
   font-size: clamp(12px, 1vw, 33px);
-  font-family: Hack, monospace;
+  font-family: Lexend;
   text-transform: uppercase;
   text-decoration: none;
   color: #ccc;
@@ -95,7 +95,7 @@ a:hover {color: #8254ff; transition: 0.5s all ease;}
   font-size: 7vw;
   text-decoration:none;
   line-height: 0.70
-  margin-top: 2.4vw;
+  margin-top: 2.4vh;
 }
 
 .mobilemenu a {
