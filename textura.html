@@ -9,14 +9,16 @@
 		<meta name="description" content="Giacomo Frey's portfolio">
 		<meta name="author" content="Giacomo Frey">
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="include-html.js"></script>
+		<script src="jquery.js"></script> 
+		<script> 
+		    $(function(){
+		      $("#includedContent").load("b.html"); 
+		    });
+		</script> 
 		
 	</head>
 	
 	<body>
-		<div w3-include-HTML="header.html"></div>
+		<div id="includedContent"></div>
 	</body>
-	
-	<script>
-		w3.includeHTML();
-	</script>
+
