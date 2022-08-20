@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend:wght@100;200;300;400;500&display=swap");
+
+* {margin: 0px; padding: 0px; position: relative;}
+
+body {background-color: #212121;}
+
+h1 {
+  font-family: Lexend;
+  font-size: clamp(20px, 1vw, 30px);
+  font-weight: 300;
+  color: rgb(203, 161, 53);
+  margin-top: 1vw;
+}
+
+h2 {
+  font-family: Lexend;
+  font-size: clamp(20px, 1vw, 30px);
+  font-weight: 200;
+  color: #ccc;
+}
+
+.menu > * {display: inline; margin-right: 1.9vw;}

@@ -1,3 +1,31 @@
+.indicator{
+  background-color:yellow;
+  position: fixed;
+  width: 2vw;
+  height: 2vw;;
+  left: 4vw;
+  top: 4vw;
+  z-index:100;
+}
+
+.font-menu {
+  font-size: clamp(12px, 1vw, 33px);
+  font-family: Lexend;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.5s all ease;
+}
+.font-title {
+  font-size: clamp(35px, 3vw, 80px);
+  margin-left: -0.3vw;
+  font-family: Archivo Black;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ccc;
+  transition: 0.5s all ease;
+}
+
 .mobile-font{
   font-family: Archivo Black;
   text-transform: uppercase;
