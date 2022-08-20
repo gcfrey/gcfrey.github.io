@@ -7,10 +7,11 @@ body {background-color: #212121;}
 .indicator{
   background-color:blue;
   position: fixed;
-  width: 1vw;
-  height: 1vw;;
+  width: 2vw;
+  height: 2vw;;
   left: 4vw;
   top: 2.4vw;
+  z-index:100;
 }
 
 .font-menu {
@@ -95,7 +96,6 @@ a:hover {color: #8254ff; transition: 0.5s all ease;}
   font-size: 7vw;
   text-decoration:none;
   line-height: 0.70
-  margin-top: 2.4vh;
 }
 
 .mobilemenu a {
@@ -125,7 +125,6 @@ a:hover {color: #8254ff; transition: 0.5s all ease;}
 	  z-index: 1;
 	  -webkit-user-select: none;
 	  user-select: none;
-  	margin-top: 2.4vw;
     margin-right: 2vw;
     margin-left: 4vw;
 	}
@@ -136,7 +135,6 @@ a:hover {color: #8254ff; transition: 0.5s all ease;}
     width: 5vw;
     height: 0.7vw;
     margin-bottom: 1.4vw;
-    margin-top: 1.4vw;
     position: relative;
     background: #ccc;
     z-index: 1;
