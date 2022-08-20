@@ -1,0 +1,41 @@
+//output:header.html
+-
+  var namearray = [
+    'CV', 
+    'ARBEITEN', 
+    'KONTAKT',
+    'KLASSE GRCIC'
+  ]
+-
+  var linkarray = [
+    'https://www.klassegrcic.de/studierende', 
+    'https://www.klassegrcic.de/alumni', 
+    'https://www.klassegrcic.de/ausstellungen',
+    'https://www.klassegrcic.de'
+  ]
+
+.indicator
+.desktop-only.center.flex.top-m
+ .left.block
+     .hover 
+       a.font-title(href="") Giacomo Frey
+     .menu
+       - for(var x = 0; x< namearray.length; x++)
+         .hover
+           a.font-menu(href=linkarray[x]) #{namearray[x]}
+
+.mobile-only.left.flex.top-4m
+ .block
+   nav.mobilemenu(role="navigation")
+     #menuToggle
+      input(type="checkbox")
+      span
+      span
+      span
+      ul#menu
+        - for (var x = 0; x < namearray.length; x++)
+          li 
+          a(href=linkarray[x], data-item=namearray[x]) #{namearray[x]}
+ .block.mobile-title
+   a.mobile-font(href="") Giacomo Frey
+     

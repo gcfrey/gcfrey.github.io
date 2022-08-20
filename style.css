@@ -5,12 +5,12 @@
 body {background-color: #212121;}
 
 .indicator{
-  background-color:violet;
+  background-color:yellow;
   position: fixed;
   width: 2vw;
   height: 2vw;;
   left: 4vw;
-  top: 2.4vw;
+  top: 4vw;
   z-index:100;
 }
 
