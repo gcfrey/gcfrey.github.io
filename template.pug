@@ -1,0 +1,51 @@
+//output:template.html
+doctype html
+html(lang='en').maxheight.border
+  head
+    meta(charset='utf-8')
+    title Klasse Grcic: Giacomo Frey - Works
+    meta(name='description' content="Giacomo Frey's portfolio")
+    meta(name='author' content='Giacomo Frey')
+    link(rel='stylesheet' type='text/css' href='header.css')
+    link(rel='stylesheet' type='text/css' href='utils.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+    script(type='text/javascript').
+      $.get('header.html',function(response){
+      $('#header').html(response);
+      });
+
+    body.maxsize
+      .v-flexbox
+        .contain
+          #header
+        .fill.b-red
+          .v-flexbox
+            .fill.all-2m.border.violet.all-4p
+              .v-bottom
+                p.b-green.f-ccc.f-lexend.p-300 Hier wird bald die Beschreibung einer Arbeit stehen
+            .fill.border.all-2m.blue
+              .h-flexbox.b-black
+                  .fill.border.white.all-2p.all-2m
+                        p.b-green.f-black.f-lexend.p-300 Hier1
+                  .fill.border.white.all-2p.all-2m
+                        p.b-green.f-black.f-lexend.p-300 Hier2
+                  .fill.border.white.all-2p.all-2m
+                        p.b-green.f-black.f-lexend.p-300 Hier3
+            .fill.border.all-2m.yellow
+              .v-flexbox.b-black
+                .fill.border.white.all-2p.all-2m
+                      p.b-green.f-black.f-lexend.p-300 Hier1
+                .fill.border.white.all-2p.all-2m
+                      p.b-green.f-black.f-lexend.p-300 Hier2
+            .fill.border.all-2m.red
+              .h-flexbox.b-black
+                  .fill.border.white.all-2p.all-2m
+                        p.b-green.f-black.f-lexend.p-300 Hier1
+                  .fill.border.white.all-2p.all-2m
+                        p.b-green.f-black.f-lexend.p-300 Hier2
+                
+        
+
+
+
+        

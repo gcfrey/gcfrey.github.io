@@ -1,23 +1,67 @@
-<!doctype html>
-
-<html lang="en">
-
-	<head>
-		<meta charset="utf-8">
-		<title>Klasse Grcic: Giacomo Frey - Works</title>
-		<meta name="description" content="Giacomo Frey's portfolio">
-		<meta name="author" content="Giacomo Frey">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script type='text/javascript'>
-		   $.get('header.html',function(response){ 
-		    $('#header').html(response); 
-		   });
-		</script>
-		
-	</head>
-	
-	<body>
-		<div id="header"></div>
-		test1
-	</body>
+<!DOCTYPE html>
+<html lang="en" class="maxheight border">
+  <head>
+    <meta charset="utf-8">
+    <title>Klasse Grcic: Giacomo Frey - Works</title>
+    <meta name="description" content="Giacomo Frey's portfolio">
+    <meta name="author" content="Giacomo Frey">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="utils.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $.get('header.html',function(response){
+      $('#header').html(response);
+      });
+      
+    </script>
+    <body class="maxsize">
+      <div class="v-flexbox">
+        <div class="contain">
+          <div id="header"></div>
+        </div>
+        <div class="fill b-red">
+          <div class="v-flexbox">
+            <div class="fill all-2m border violet all-4p">
+              <div class="v-bottom">
+                <p class="b-green f-ccc f-lexend p-300">Hier wird bald die Beschreibung einer Arbeit stehen</p>
+              </div>
+            </div>
+            <div class="fill border all-2m blue">
+              <div class="h-flexbox b-black">
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier1</p>
+                </div>
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier2</p>
+                </div>
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier3</p>
+                </div>
+              </div>
+            </div>
+            <div class="fill border all-2m yellow">
+              <div class="v-flexbox b-black">
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier1</p>
+                </div>
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier2</p>
+                </div>
+              </div>
+            </div>
+            <div class="fill border all-2m red">
+              <div class="h-flexbox b-black">
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier1</p>
+                </div>
+                <div class="fill border white all-2p all-2m">
+                  <p class="b-green f-black f-lexend p-300">Hier2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

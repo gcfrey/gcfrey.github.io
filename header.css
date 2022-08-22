@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lexend:wght@100;200;300;400;500&display=swap");
+
+* {margin: 0px; padding: 0px; position: relative;}
+
+body {background-color: #212121;}
+
 .indicator{
   background-color:yellow;
   position: fixed;
@@ -7,6 +13,8 @@
   top: 4vw;
   z-index:100;
 }
+
+.menu > * {display: inline; margin-right: 1.9vw;}
 
 .font-menu {
   font-size: clamp(12px, 1vw, 33px);
@@ -55,7 +63,7 @@
 
 .mobilemenu nav {
 	  background-color: ccc;
-	}
+}
 
 #menuToggle {
 	  position: relative;
