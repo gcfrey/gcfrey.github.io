@@ -1,0 +1,171 @@
+
+/* Spacers*/
+
+.vertical-spacer-1{
+  height: 1vh;
+}
+
+.vertical-spacer-2{
+  height: 2vh;
+}
+
+.vertical-spacer-3{
+  height: 3vh;
+}
+
+.vertical-spacer-4{
+  height: 4vh;
+}
+
+.vertical-spacer-layout{
+  height: 3vw;
+}
+
+.content-section{
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+/*Layouts*/
+
+.horizontal-oneandtwo{
+  height: auto;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 92%;
+  display: flex;
+}
+
+.horizontal-oneandtwo > :first-child{
+  width: 68%;
+  display:inline;
+}
+
+.horizontal-oneandtwo > :first-child > img{
+  width: 95%;
+  height: auto;
+  display:block;
+  margin-right: 5%;
+}
+
+.horizontal-oneandtwo > :nth-child(2){
+  width: 32%;
+  display:inline;
+}
+
+.horizontal-oneandtwo > :nth-child(2) > :nth-child(2){
+  margin-top: 10%;
+}
+
+.horizontal-oneandtwo img{
+  width: 100%;
+  height: auto;
+}
+
+.horizontal-oneandtwo img:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
+}
+
+.vertical-oneandtwo{
+  height: auto;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 92%;
+}
+
+.vertical-oneandtwo img{
+  width: 100%;
+}
+
+.vertical-oneandtwo > :first-child{
+  display: block;
+}
+
+.vertical-oneandtwo img:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
+}
+
+.vertical-oneandtwo > :first-child > img{
+  margin-bottom: 3%;
+}
+
+.vertical-oneandtwo > :nth-child(2){
+  display: flex;
+}
+
+.vertical-oneandtwo > :nth-child(2) > img{
+  width: 48%;
+}
+
+.vertical-oneandtwo > :nth-child(2) > :first-child{
+  margin-right: 4%;
+}
+
+.mono{
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.mono img{
+  max-width: 100%;
+}
+
+.imagerow {
+  display: flex;
+  flex-direction: row;
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.imagerow div{
+  margin-right:3vw;
+}
+.imagerow :last-child{
+  margin-right:0vw;
+}
+
+.imagerow img {
+  display: block;
+  max-width: 100%;
+  max-height: 40vw;
+}
+
+.imagerow img:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
+}
+
+/*Text formatting*/
+
+.text{
+  font-family: Lexend;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.text.body{
+  color: #ccc;
+}
+
+.text.title{
+  color: rgb(203, 161, 53);
+}
+
+.text.capitals{
+  text-transform: uppercase;
+}
+
+.padded{
+  padding-top: 1vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vh;
+}
+
+.adapt{
+  width: 100%;
+  height: auto;
+}

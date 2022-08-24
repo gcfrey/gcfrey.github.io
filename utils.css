@@ -2,6 +2,7 @@
 @media (max-width: 1024px) {.desktop-only {display: none !important;}}
 
 .hover:hover {scale: 1.05; transition: 0.5s all ease;}
+.subtle-hover:hover {scale: 1.02; transition: 0.5s all ease;}
 
 a:hover {color: #8254ff; transition: 0.5s all ease;}
 
@@ -34,29 +35,22 @@ a:hover {color: #8254ff; transition: 0.5s all ease;}
 .v-bottom{display:flex; align-items: flex-end; height: 100%;}
 .fullcenter {display:flex; justify-content: center; align-items: center; height: 100%; width: 100%;}
 
-.v-flexbox {
+.flex.v {
   display: flex;
   flex-flow: column;
   height: 100%;
   width: 100%;
 }
-.v-flexbox .contain {
-  flex: 0 1 auto;
-}
-.v-flexbox .fill {
-  flex: 1 1 auto;
-}
-
-.h-flexbox {
+.flex.h {
   display: flex;
   flex-flow: row;
   width: 100%;
   height: 100%;
 }
-.h-flexbox .contain {
+.flex .contain {
   flex: 0 1 auto;
 }
-.h-flexbox .fill {
+.flex .fill {
   flex: 1 1 auto;
 }
 

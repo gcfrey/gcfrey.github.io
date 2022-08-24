@@ -5,7 +5,7 @@
 body {background-color: #212121;}
 
 .indicator{
-  background-color:yellow;
+  background-color:transparent;
   position: fixed;
   width: 2vw;
   height: 2vw;;
