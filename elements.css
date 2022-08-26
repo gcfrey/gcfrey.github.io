@@ -1,3 +1,22 @@
+.grid-container{
+  width: 92%;
+  margin-left: 4%;
+  margin-right: 4%;
+  height: 40vw;
+}
+
+.parent {
+height:100%;
+display: grid;
+grid-template-columns: repeat(7, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 1 / 1 / 6 / 4; }
+.div2 { grid-area: 1 / 5 / 3 / 8; }
+.div3 { grid-area: 4 / 5 / 6 / 8; }
 
 /* Spacers*/
 
@@ -113,6 +132,11 @@
   max-width: 100%;
 }
 
+.mono img:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
+}
+
 .imagerow {
   display: flex;
   flex-direction: row;
@@ -136,6 +160,37 @@
 .imagerow img:hover{
   scale: 1.02;
   transition: 0.5s all ease;
+}
+
+.column-layout{
+  width: 92%;
+
+  border-style: solid;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  flex-flow: row;
+
+  height: 40vw;
+}
+
+.column-layout > div{
+  border-style: solid;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+.column-layout > div > div{
+  flex: 1 1 auto;
+  border-style: solid;
+  border-color:red;
+}
+
+.column-layout img{
+  max-width: 100%;
+  object-fit: cover;
 }
 
 /*Text formatting*/

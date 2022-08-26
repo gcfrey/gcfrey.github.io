@@ -1,0 +1,39 @@
+.container1 {  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: 113.9vw;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:"canvas";
+}
+
+.canvas1 {  display: grid;
+  grid-template-columns: 21.7vw 17.0vw 38vw 19.7vw 3.5vw;
+  grid-template-rows: 14.2vw 40.5vw 9.8vw 39.2vw 10.1vw;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . ."
+    ". img1 img1 . ."
+    ". . . . ."
+    ". . img2 img2 ."
+    ". . . . .";
+  grid-area: canvas;
+}
+
+.img1 {
+  grid-area: img1;
+  background-image: url("https://static.wixstatic.com/media/69d310_b909b05ba93d4fb5ad3315ba7c41fd6f~mv2.jpg");
+  background-size: 100% 100%;
+}
+
+.img2 {
+  grid-area: img2;
+  background-image: url("https://static.wixstatic.com/media/69d310_09653622dce5455089db8c91c3b444f2~mv2.jpg");
+  background-size: 100% 100%;
+}
+
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
+}
