@@ -1,39 +1,94 @@
-.container1 {  display: grid;
-  grid-template-columns: 100vw;
-  grid-template-rows: 113.9vw;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:"canvas";
+.canvas{
+  width: 98.5w;
 }
 
-.canvas1 {  display: grid;
-  grid-template-columns: 21.7vw 17.0vw 38vw 19.7vw 3.5vw;
-  grid-template-rows: 14.2vw 40.5vw 9.8vw 39.2vw 10.1vw;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". . . . ."
-    ". img1 img1 . ."
-    ". . . . ."
-    ". . img2 img2 ."
-    ". . . . .";
-  grid-area: canvas;
+.img-fill{
+  position:absolute;
 }
 
-.img1 {
-  grid-area: img1;
-  background-image: url("https://static.wixstatic.com/media/69d310_b909b05ba93d4fb5ad3315ba7c41fd6f~mv2.jpg");
-  background-size: 100% 100%;
+.img-fill:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
 }
 
-.img2 {
-  grid-area: img2;
-  background-image: url("https://static.wixstatic.com/media/69d310_09653622dce5455089db8c91c3b444f2~mv2.jpg");
-  background-size: 100% 100%;
+.img-fill img{
+  width:100%;
+  height:100%;
 }
 
+@media (max-width: 1024px) {
+  .img-fill {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 92% !important;
+    height: auto !important;
+    margin-left:3.5% !important;
+    margin-top: 4vw !important;
+  }
+}
 
-html, body , .container {
-  height: 100%;
-  margin: 0;
+.img1{
+  top: 10.2vw;
+  left: 19.7vw;
+  width: 55vw;
+  height: 39vw;
+}
+
+.img2{
+  top: 60.7vw;
+  left: 36.7vw;
+  width: 57.7vw;
+  height: 39.2vw;
+}
+
+.img3{
+  top: 109.92vw;
+  left: 3.76vw;
+  width: 45.39vw;
+  height: 36.54vw;
+}
+
+.img4{
+  top: 109.92vw;
+  left: 56.45vw;
+  width: 28.98vw;
+  height: 43.55vw;
+}
+
+.img5{
+  position:absolute;
+  top: 150.22vw;
+  left: 3.76vw;
+  width: 17.50vw;
+  height: 25.9vw;
+}
+
+.img6{
+  top: 168.52vw;
+  left: 30.13vw;
+  width: 64.37vw;
+  height: 42.4vw;
+}
+
+.img7{
+  top: 225.9vw;
+  left: 7.74vw;
+  width: 69.43vw;
+  height: 47.19vw;
+}
+
+.img8{
+  top: 276.8vw;
+  left: 7.74vw;
+  width: 29.85vw;
+  height: 21.18vw;
+}
+
+.img9{
+  top: 284.6vw;
+  left: 41.8vw;
+  width: 48.03vw;
+  height: 32.2vw;
+  margin-bottom: 4vw;
 }
