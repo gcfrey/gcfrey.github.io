@@ -27,6 +27,17 @@ html(lang='en')
       'Babel Office'
     ]
   -
+    var reflinkarray = [
+      'https://giacomofrey.de/the-poolroom',
+      'https://giacomofrey.de/lostinlattice-ingelheim',
+      'https://giacomofrey.de/lostinlattice-bungalow',
+      'https://giacomofrey.de/lostinlattice-basis',
+      'https://giacomofrey.de/manyfold-jest',
+      'https://giacomofrey.de/lingua-cosmica',
+      'https://giacomofrey.de/textura',
+      'https://giacomofrey.de/babel-office'
+    ]
+  -
     var postimageurl = [
       'https://static.wixstatic.com/media/69d310_316f3f5740ea421b8c3e7a982cbc79d6~mv2.jpg',
       'https://static.wixstatic.com/media/69d310_04991f0f7b1b4bc29d95fd27a306ac10~mv2.jpg',
@@ -66,7 +77,7 @@ html(lang='en')
       .two-column.inline-block.leftright-4m.bottom-4m
         - for (var x = 0; x < posttitlearray.length; x++)
           .hover.inline-block.top-4m.bottom-4m.fullwidth
-            img.fullwidth(src=postimageurl[x])
+            img.fullwidth(src=postimageurl[x] href=reflinkarray[x])
             h1 #{posttitlearray[x]}
             h2 #{postyeararray[x]}
             h2 #{postplacearray[x]}
