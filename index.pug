@@ -77,7 +77,8 @@ html(lang='en')
       .two-column.inline-block.leftright-4m.bottom-4m
         - for (var x = 0; x < posttitlearray.length; x++)
           .hover.inline-block.top-4m.bottom-4m.fullwidth
-            img.fullwidth(src=postimageurl[x] href=reflinkarray[x])
-            h1 #{posttitlearray[x]}
-            h2 #{postyeararray[x]}
-            h2 #{postplacearray[x]}
+            a(href=reflinkarray[x])
+              img.fullwidth(src=postimageurl[x])
+              h1 #{posttitlearray[x]}
+              h2 #{postyeararray[x]}
+              h2 #{postplacearray[x]}
