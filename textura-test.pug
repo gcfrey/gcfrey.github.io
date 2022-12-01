@@ -1,0 +1,87 @@
+//output:textura-test.html
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Klasse Grcic: Giacomo Frey - Works
+    meta(name='description' content="Giacomo Frey's portfolio")
+    meta(name='author' content='Giacomo Frey')
+    link(rel='stylesheet' type='text/css' href='header.css')
+    link(rel='stylesheet' type='text/css' href='utils.css')
+    link(rel='stylesheet' type='text/css' href='elements.css')
+    link(rel='stylesheet' type='text/css' href='textura.css')
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+    script(type='text/javascript').
+      $.get('header.html',function(response){
+      $('#header').html(response);
+      });
+    -
+      var photoArray = [
+        'https://static.wixstatic.com/media/69d310_1bf3de777c6a4780b65a76eb2b9fb8cd~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_b909b05ba93d4fb5ad3315ba7c41fd6f~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_5de1933588d548a1a048a5848b75321d~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_2d50a49355d24b248faa52e621f0452e~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_aaef98f442d54a6cb8beb1d91cf91e39~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_cd67b641862c485fad8dce96990ca182~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_9a701ebcba514530b72d996b094f378e~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_f4739f5c1ec94c81a15455b9f5fe9690~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_1ce92282b93f4434b4a7775da6941148~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_b88271ee55114052b93cc670ca1a6054~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_09653622dce5455089db8c91c3b444f2~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_07af0ce5a2a94bb3b450a1c86880c413~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_d6d4fd6a69da41d893868ebbc72741ce~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_dfdc0513490a471787d62dfad01b93f7~mv2.jpg'
+      ]
+    -
+      var drawingArray = [
+        'https://static.wixstatic.com/media/69d310_1ab935642233413d87296d385cf45a4a~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_c786fb613d22443296427b20cf329f06~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_645a22752efe42a28e41699e5c701f35~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_d50413b21b8349ea944f73ac80a6d346~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_c10c286d50a24927b20f76db98f451b3~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_83d760c9963b480e8487439009dd5d3a~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_317440593bdc476c82a11bdf3fa3402f~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_c94d2f4709784c08b7f76c4a37d9c4d1~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_da49ae56d8a84a30bba3a07a117e1641~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_5db23f21b451469b88215a88d59811f4~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_b7553a3f4da84716844aef898ed3f9e1~mv2.jpg'
+      ]
+    -
+      var svgArray = [
+        'https://static.wixstatic.com/media/69d310_74ea701b0dfb4af4bdfa11beb6605835~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_a9f556860fde48fb922ec2067fff2405~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_e892af75915f44b6b859b2f20b7f76a4~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_8016757fab304d5eafa4e834e36e13e3~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_e681e0fb9498432bb2611df14d9d5ee5~mv2.jpg',
+        'https://static.wixstatic.com/media/69d310_72970ea6f51c403e8fe84fdb65247396~mv2.jpg'
+      ]
+    
+
+  body
+    #header
+    .canvas
+      .img-fill.img1
+        img(src="https://static.wixstatic.com/media/69d310_b909b05ba93d4fb5ad3315ba7c41fd6f~mv2.jpg")
+      .img-fill.img2
+        img(src="https://static.wixstatic.com/media/69d310_09653622dce5455089db8c91c3b444f2~mv2.jpg")
+      .img-fill.img3
+        img(src="https://static.wixstatic.com/media/69d310_5de1933588d548a1a048a5848b75321d~mv2.jpg")
+      .img-fill.img4
+        img(src="https://static.wixstatic.com/media/69d310_f4739f5c1ec94c81a15455b9f5fe9690~mv2.jpg")
+      .img-fill.img5
+        img(src="https://static.wixstatic.com/media/69d310_dfdc0513490a471787d62dfad01b93f7~mv2.jpg")
+      .img-fill.img6
+        img(src="https://static.wixstatic.com/media/69d310_2d50a49355d24b248faa52e621f0452e~mv2.jpg")
+      .img-fill.img7
+        img(src="https://static.wixstatic.com/media/69d310_b88271ee55114052b93cc670ca1a6054~mv2.jpg")
+      .img-fill.img8
+        img(src="https://static.wixstatic.com/media/69d310_cd67b641862c485fad8dce96990ca182~mv2.jpg")
+      .img-fill.img9
+        img(src="https://static.wixstatic.com/media/69d310_9a701ebcba514530b72d996b094f378e~mv2.jpg")
+
+
+          
+
+
+
+      

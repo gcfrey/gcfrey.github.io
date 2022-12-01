@@ -21,31 +21,34 @@ html(lang='en').maxheight.border
       #header
       -
         var postimageurl = [
-          'https://static.wixstatic.com/media/69d310_316f3f5740ea421b8c3e7a982cbc79d6~mv2.jpg',
-          'https://static.wixstatic.com/media/69d310_04991f0f7b1b4bc29d95fd27a306ac10~mv2.jpg',
-          'https://static.wixstatic.com/media/69d310_0bc3f22539a648da932b969607e02c93~mv2.jpg',
-          'https://static.wixstatic.com/media/69d310_0f90beb3858344f38d8e682116dd364d~mv2.jpg',
-          'https://static.wixstatic.com/media/69d310_b38cf6692676472180c3391a3d1390dc~mv2.png',
-          'https://static.wixstatic.com/media/69d310_df04472db775483ba84f226300b5e15b~mv2.jpg',
-          'https://static.wixstatic.com/media/69d310_acd669a726e84442a9fe74683d611757~mv2.jpg',
-          'https://static.wixstatic.com/media/69d310_51ae17eb1ba1485d993b953434ae62fc~mv2.jpg'
-        ]
-      -
-        var reflinkarray = [
-          'https://giacomofrey.de/the-poolroom',
-          'https://giacomofrey.de/lostinlattice-ingelheim',
-          'https://giacomofrey.de/lostinlattice-bungalow',
-          'https://giacomofrey.de/lostinlattice-basis',
-          'https://giacomofrey.de/manyfold-jest',
-          'https://giacomofrey.de/lingua-cosmica',
-          'https://giacomofrey.de/textura',
-          'https://giacomofrey.de/babel-office'
+          'https://static.wixstatic.com/media/69d310_c32944742eb9477f9a2a0339e5bb34bc~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_bc664d770228444591679908b79cdcf7~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_6798385549a94cf78a1997a2b8bb9ab0~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_68e26916e8aa4f9cb153536997869fee~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_d64459739f0a4ba3906cc7252eb44470~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_3da3b60142a04005b5b6674307b2269e~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_2d065eb15c774f108195218d3994cfca~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_c70c8f6e8bf54699bcd806ec8cf316d7~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_0e6f4b2414584e68a1c46c42f48fc0a3~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_df137d78fd614ca79344bb3fec0b30e9~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_228595a84bcd46f99bd6021cbda5196c~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_b02b52ab24a34c4d82bfd42b794e76c7~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_b763c0f65e1141ad92759ed7e2e15db7~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_f01c2331d5b64c7ea98b62a8edbae294~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_98709ad212c64cd983727510ff89441b~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_b49529bc24df487caf92a72625cb0685~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_9012bd9fc8ba4969aa076542d3d2e481~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_2d37625943ef4b899fe8c0cf9a8189dc~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_62fc2add1ffe45f688ef15145f6b5710~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_2d1b6ff09d3646119790a310f2efd9a5~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_b4f2dfebaed94b5e8580bd7219492755~mv2.jpg',
+          'https://static.wixstatic.com/media/69d310_f8eb328c371b4f6fa35ecc0d997f4209~mv2.jpg'
         ]
       .center.flex
         .two-column.inline-block.leftright-4m.bottom-4m
           - for (var x = 0; x < postimageurl.length; x++)
             .hover.inline-block.top-4m.bottom-4m.fullwidth
-              a(href=reflinkarray[x])
+              a(href=postimageurl[x])
                 img.fullwidth(src=postimageurl[x])
     
 
