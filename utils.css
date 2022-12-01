@@ -4,8 +4,6 @@
 .hover:hover {scale: 1.05; transition: 0.5s all ease;}
 .subtle-hover:hover {scale: 1.02; transition: 0.5s all ease;}
 
-a:hover {color: #8254ff; transition: 0.5s all ease;}
-
 .flex {display: flex;}
 .block {display: block;}
 .inline-block {display: inline-block;}
