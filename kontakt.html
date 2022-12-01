@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" class="maxheight">
+  <head>
+    <meta charset="utf-8">
+    <title>Klasse Grcic: Giacomo Frey - Works</title>
+    <meta name="description" content="Giacomo Frey's portfolio">
+    <meta name="author" content="Giacomo Frey">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="utils.css">
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $.get('header.html',function(response){
+      $('#header').html(response);
+      });
+    </script>
+    <script type="text/javascript">
+      $.get('slider.html',function(response){
+      $('#slider').html(response);
+      });
+    </script>
+    <body>
+      <div id="header"></div>
+      <div class="center flex">
+        <div class="two-column inline-block leftright-4m bottom-4m">
+          <div class="hover inline-block top-4m bottom-4m fullwidth"><a href=""><img src="" class="fullwidth"></a></div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>
