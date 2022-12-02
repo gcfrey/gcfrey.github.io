@@ -22,7 +22,7 @@
      .menu
        - for(var x = 0; x< namearray.length; x++)
          .hover
-           a.font-menu(href=linkarray[x]) #{namearray[x]}
+           a.font-menu(class = namearray[x] href=linkarray[x]) #{namearray[x]}
 
 .mobile-only.left.flex.top-4m
  .block
@@ -35,7 +35,7 @@
       ul#menu
         - for (var x = 0; x < namearray.length; x++)
           li 
-          a(href=linkarray[x], data-item=namearray[x]) #{namearray[x]}
+          a(class = namearray[x] href=linkarray[x], data-item=namearray[x]) #{namearray[x]}
  .block.mobile-title
    a.mobile-font(href="") Giacomo Frey
      

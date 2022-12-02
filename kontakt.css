@@ -1,18 +1,26 @@
 :root {
- --backgroundcolor: #212121;
- --fontcolor: #ccc;
- --fonthovercolor: #8254ff;
- --menubackgroundcolor: #ccc;
- --menutextcolor: #212121;
+  --backgroundcolor: #212121;
+  --fontcolor: #ccc;
+  --fonthovercolor: #8254ff;
+  --menubackgroundcolor: #ccc;
+  --menutextcolor: #212121;
+  --highlightcolor: rgb(203, 161, 53);
 }
 
-body {background-color: var(--backgroundcolor);}
+.KONTAKT {
+  color: var(--highlightcolor) !important;
+  text-decoration: underline !important;
+}
+
+body {
+  background-color: var(--backgroundcolor);
+}
 
 h1 {
   font-family: Lexend;
   font-size: clamp(20px, 1vw, 30px);
   font-weight: 300;
-  color: rgb(203, 161, 53);
+  color: var(--highlightcolor);
   margin-top: 1vw;
 }
 
@@ -20,41 +28,50 @@ h2 {
   font-family: Lexend;
   font-size: clamp(20px, 1vw, 30px);
   font-weight: 200;
-  color: #ccc;
+  color: var(--fontcolor);
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-a:hover {color: var(--fonthovercolor); transition: 0.5s all ease;}
+a:hover {
+  color: var(--fonthovercolor);
+  transition: 0.5s all ease;
+}
 
 .font-menu {
   color: var(--fontcolor);
 }
+
 .font-title {
   color: var(--fontcolor);
 }
-.mobile-font{
+
+.mobile-font {
   color: var(--fontcolor);
 }
+
 .mobilemenu a {
   color: var(--menutextcolor);
 }
+
 .mobilemenu a:hover {
   color: var(--fonthovercolor);
 }
+
 .mobilemenu nav {
-	  background-color: var(--menubackgroundcolor);
+  background-color: var(--menubackgroundcolor);
 }
-#menuToggle span{
-    background-color: var(--menubackgroundcolor);
-	}
-	#menuToggle input:checked ~ span
-	{
-	  background-color: var(--menutextcolor);
-	}
-	#menu
-	{
-	  background-color: var(--menubackgroundcolor);
-	}
+
+#menuToggle span {
+  background-color: var(--menubackgroundcolor);
+}
+
+#menuToggle input:checked ~ span {
+  background-color: var(--menutextcolor);
+}
+
+#menu {
+  background-color: var(--menubackgroundcolor);
+}
