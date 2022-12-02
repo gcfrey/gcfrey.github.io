@@ -20,16 +20,9 @@ html(lang='en').maxheight
       });
     body
       #header
-      -
-        var postimageurl = [
-          '',
-        ]
+        iframe(width='100%', height='100%', src='https://klassegrcic.de')
       .center.flex
-        .two-column.inline-block.leftright-4m.bottom-4m
-          - for (var x = 0; x < postimageurl.length; x++)
-            .hover.inline-block.top-4m.bottom-4m.fullwidth
-              a(href=postimageurl[x])
-                img.fullwidth(src=postimageurl[x])
+
     
 
                 
