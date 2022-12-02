@@ -49,23 +49,23 @@ a:hover {
 }
 
 .font-menu {
-  color: var(--fontcolor) !important;
+  color: var(--fontcolor)
 }
 
 .font-title {
-  color: var(--fontcolor) !important;
+  color: var(--fontcolor)
 }
 
 .mobile-font {
-  color: var(--fontcolor) !important;
+  color: var(--fontcolor)
 }
 
 .mobilemenu a {
-  color: var(--menutextcolor) !important;
+  color: var(--menutextcolor)
 }
 
 .mobilemenu a:hover {
-  color: var(--fonthovercolor) !important;
+  color: var(--fonthovercolor) 
 }
 
 .mobilemenu nav {
