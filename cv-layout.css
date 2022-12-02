@@ -35,6 +35,9 @@
   justify-content: center;
   font-family:Lexend;
   color: #ccc;
+  line-height: 2;
+  text-align: justify;
+  flex-flow:column;
 }
 
 .text-fill:hover{
@@ -48,7 +51,7 @@
     top: 0px !important;
     left: 0px !important;
     width: 85vw !important;
-    height: 70vh;
+    height: auto !important;
     margin-left:3.5% !important;
     margin-top: 4vw !important;
   }
