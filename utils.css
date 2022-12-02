@@ -33,6 +33,17 @@
 .v-bottom{display:flex; align-items: flex-end; height: 100%;}
 .fullcenter {display:flex; justify-content: center; align-items: center; height: 100%; width: 100%;}
 
+.block-text{
+  font-family:Lexend;
+  line-height: 2;
+  text-align: justify;
+}
+
+.title-text{
+  font-family:Lexend;
+  text-align: center;
+}
+
 .flex.v {
   display: flex;
   flex-flow: column;
