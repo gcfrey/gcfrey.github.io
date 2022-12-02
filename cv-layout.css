@@ -57,6 +57,48 @@
   }
 }
 
+.half-fill{
+  position:absolute;
+}
+
+.half-fill:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
+}
+
+.half-fill img{
+  width:100%;
+  height:100%;
+}
+
+@media (max-width: 1024px) {
+  .half-fill {
+    position: relative !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 50% !important;
+    height: auto !important;
+    margin-left:25% !important;
+    margin-top: 4vw !important;
+  }
+}
+
+.only-mobile{}
+
+@media (min-width: 1024px) {
+  .only-mobile {
+    display:none;
+  }
+}
+
+.only-desktop{}
+
+@media (max-width: 1024px) {
+  .only-desktop {
+    display:none;
+  }
+}
+
 .img1{
   top: 7.56vw;
   left: 9.77vw;
