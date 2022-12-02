@@ -9,6 +9,9 @@ html(lang='en').maxheight
     link(rel='stylesheet' type='text/css' href='header.css')
     link(rel='stylesheet' type='text/css' href='utils.css')
     link(rel='stylesheet' type='text/css' href='cv.css')
+    link(rel='stylesheet' type='text/css' href='muse-global.css')
+    link(rel='stylesheet' type='text/css' href='cv-muse.css')
+      
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
     script(type='text/javascript').
       $.get('header.html',function(response){
@@ -18,19 +21,13 @@ html(lang='en').maxheight
       $.get('slider.html',function(response){
       $('#slider').html(response);
       });
-    body
-      #header
-      -
-        var postimageurl = [
-          '',
-        ]
-      .center.flex
-        .two-column.inline-block.leftright-4m.bottom-4m
-          - for (var x = 0; x < postimageurl.length; x++)
-            .hover.inline-block.top-4m.bottom-4m.fullwidth
-              a(href=postimageurl[x])
-                img.fullwidth(src=postimageurl[x])
-    
+  body
+    #header
+    .clearfix.borderbox#page
+      .clip_frame.grpelem#u100
+        img.block#u100_img(src='images/pxl_20220722_161742774portrait.jpg?crc=259878936', alt, data-heightwidthratio='1.3327814569536425', data-image-width='604', data-image-height='805')
+      img.grpelem#u110-29(alt=' Hier wird bald ein Lebenslauf stehen', src='images/u110-29.png?crc=4249478644', data-image-width='605')
+      .verticalspacer(data-offset-top='867', data-content-above-spacer='866', data-content-below-spacer='61', data-sizepolicy='fixed', data-pintopage='page_fixedLeft')
 
                 
         

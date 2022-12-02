@@ -32,32 +32,32 @@ h2 {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: var(--fonthovercolor);
+  color: var(--fonthovercolor) !important;
   transition: 0.5s all ease;
 }
 
 .font-menu {
-  color: var(--fontcolor);
+  color: var(--fontcolor) !important;
 }
 
 .font-title {
-  color: var(--fontcolor);
+  color: var(--fontcolor) !important;
 }
 
 .mobile-font {
-  color: var(--fontcolor);
+  color: var(--fontcolor) !important;
 }
 
 .mobilemenu a {
-  color: var(--menutextcolor);
+  color: var(--menutextcolor) !important;
 }
 
 .mobilemenu a:hover {
-  color: var(--fonthovercolor);
+  color: var(--fonthovercolor) !important;
 }
 
 .mobilemenu nav {
