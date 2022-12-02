@@ -7,6 +7,14 @@
   --highlightcolor: rgb(203, 161, 53);
 }
 
+.highlight-text{
+  color:var(--highlightcolor);
+}
+
+.normal-text{
+  color:var(--fontcolor);
+}
+
 .CV {
   color: var(--highlightcolor) !important;
   text-decoration: underline !important;
