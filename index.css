@@ -18,7 +18,7 @@ body {
 
 h1 {
   font-family: Lexend;
-  font-size: clamp(20px, 1vw, 30px);
+  font-size: clamp(20px, 2.5vw, 50px);
   font-weight: 300;
   color: var(--highlightcolor);
   margin-top: 1vw;
@@ -26,7 +26,7 @@ h1 {
 
 h2 {
   font-family: Lexend;
-  font-size: clamp(20px, 1vw, 30px);
+  font-size: clamp(20px, 2vw, 50px);
   font-weight: 200;
   color: var(--fontcolor);
 }
