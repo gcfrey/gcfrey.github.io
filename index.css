@@ -18,10 +18,16 @@ body {
 
 h1 {
   font-family: Lexend;
-  font-size: clamp(20px, 1.5vw, 1000px);
+  font-size: clamp(20px, 1.2vw, 1000px);
   font-weight: 300;
   color: var(--highlightcolor);
   margin-top: 1vw;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: clamp(20px, 3vw, 1000px)
+  }
 }
 
 h2 {
@@ -29,6 +35,12 @@ h2 {
   font-size: clamp(20px, 1vw, 1000px);
   font-weight: 200;
   color: var(--fontcolor);
+}
+
+@media (max-width: 1024px) {
+  h2 {
+    font-size: clamp(20px, 3vw, 1000px)
+  }
 }
 
 a {
