@@ -1,0 +1,37 @@
+//output:kontakt-neu.html
+doctype html
+html(lang='en').maxheight
+  head
+    meta(charset='utf-8')
+    title Klasse Grcic: Giacomo Frey - Works
+    meta(name='description' content="Giacomo Frey's portfolio")
+    meta(name='author' content='Giacomo Frey')
+    link(rel='stylesheet' type='text/css' href='header.css')
+    link(rel='stylesheet' type='text/css' href='utils.css')
+    link(rel='stylesheet' type='text/css' href='kontakt-neu.css')
+      
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+    script(type='text/javascript').
+      $.get('header.html',function(response){
+      $('#header').html(response);
+      });
+    script(type='text/javascript').
+      $.get('slider.html',function(response){
+      $('#slider').html(response);
+      });
+  body
+    #header
+    .flex-centering.top-4m.b-yellow
+      .flex-container
+        .flexbox1.portrait
+          .flex-text 
+        .flexbox1.studierende
+          .flex-text Wenn Sie mich kontaktieren wollen, senden Sie mir eine Email an gcfrey@outlook.de
+
+
+                
+        
+
+
+
+        

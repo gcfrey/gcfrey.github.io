@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" class="maxheight">
+  <head>
+    <meta charset="utf-8">
+    <title>Klasse Grcic: Giacomo Frey - Works</title>
+    <meta name="description" content="Giacomo Frey's portfolio">
+    <meta name="author" content="Giacomo Frey">
+    <link rel="stylesheet" type="text/css" href="header.css">
+    <link rel="stylesheet" type="text/css" href="utils.css">
+    <link rel="stylesheet" type="text/css" href="kontakt-neu.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $.get('header.html',function(response){
+      $('#header').html(response);
+      });
+    </script>
+    <script type="text/javascript">
+      $.get('slider.html',function(response){
+      $('#slider').html(response);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <div class="flex-centering top-4m b-yellow">
+      <div class="flex-container">
+        <div class="flexbox1 portrait">
+          <div class="flex-text"> </div>
+        </div>
+        <div class="flexbox1 studierende">
+          <div class="flex-text">Wenn Sie mich kontaktieren wollen, senden Sie mir eine Email an gcfrey@outlook.de</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

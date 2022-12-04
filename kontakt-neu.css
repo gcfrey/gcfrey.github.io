@@ -63,12 +63,18 @@ a:hover {
   background-color: var(--menubackgroundcolor);
 }
 
+.portrait{
+  background-image: url(https://static.wixstatic.com/media/69d310_8209980eaef349d1842a4de6e001eb50~mv2.png);
+  background-size: cover;
+}
+
 .flex-centering{
   display: flex;
-  height: 100%;
+  height: 85vh;
   width:100%;
   flex-flow: column;
   align-items: center;
+  justify-content: center;
 }
 
 .flex-container{
@@ -99,30 +105,9 @@ a:hover {
 
 .flexbox1{
   width: 45%;
-  border-style: solid;
   border-color: var(--fontcolor) !important;
   border-width: 1px;
   margin-left: 3.2%;
-}
-
-.studierende{
-  background-image: url(https://static.wixstatic.com/media/69d310_0d9e356d8e6947cb9ba0556bbe996242~mv2.jpg);
-  background-size:cover;
-}
-
-.alumni{
-  background-image: url(https://static.wixstatic.com/media/69d310_9daea12730484a019120d55c93626813~mv2.jpg);
-  background-size:cover;
-}
-
-.ausstellungen{
-  background-image: url(https://static.wixstatic.com/media/69d310_f8f28d49016847dea1c3dc5733605fd6~mv2.jpg);
-  background-size:cover;
-}
-
-.hauptseite{
-  background-image: url(https://static.wixstatic.com/media/69d310_9bf7ff8bed9848e7a8a54e91fdb288a7~mv2.jpg);
-  background-size:cover;
 }
 
 .flexbox1 a {
@@ -132,15 +117,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   color: var(--fontcolor);
-  font-size: clamp(20ps, 1vw, 1000px);
-  background-color: #191919;
   transition: 0.5s all ease;
-}
-
-@media (max-width: 1024px) {
-  .flexbox1 a {
-    font-size: clamp(20px, 3vw, 1000px)
-  }
 }
 
 .flexbox1 a:hover{
@@ -156,4 +133,6 @@ a:hover {
 .flex-text{
   display:flex;
   font-family: Lexend;
+  text-align: center;
+  width: 70%;
 }
