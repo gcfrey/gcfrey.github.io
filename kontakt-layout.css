@@ -46,9 +46,9 @@
     position: relative !important;
     top: 0px !important;
     left: 0px !important;
-    width: 85vw !important;
+    width: 50vw !important;
     height: auto !important;
-    margin-left:3.5% !important;
+    margin-left:22% !important;
     margin-top: 4vw !important;
   }
 }
@@ -110,5 +110,12 @@
   height: 44.2vw;
   padding: 2vw;
   font-family: Lexend;
+  font-size: clamp(20px, 1vw, 1000px);
   text-align:center;
+}
+
+@media (max-width: 1024px) {
+  .textbox1 {
+    font-size: clamp(20px, 3vw, 1000px);
+  }
 }
