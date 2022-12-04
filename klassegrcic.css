@@ -14,50 +14,37 @@
 
 body {
   background-color: var(--backgroundcolor);
-}
-
-h1 {
-  font-family: Lexend;
-  font-size: clamp(20px, 1vw, 30px);
-  font-weight: 300;
-  color: var(--highlightcolor);
-  margin-top: 1vw;
-}
-
-h2 {
-  font-family: Lexend;
-  font-size: clamp(20px, 1vw, 30px);
-  font-weight: 200;
-  color: var(--fontcolor);
+  width: 100%;
+  height: 100%;
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
-  color: var(--fonthovercolor);
+  color: var(--fonthovercolor) !important;
   transition: 0.5s all ease;
 }
 
 .font-menu {
-  color: var(--fontcolor);
+  color: var(--fontcolor)
 }
 
 .font-title {
-  color: var(--fontcolor);
+  color: var(--fontcolor)
 }
 
 .mobile-font {
-  color: var(--fontcolor);
+  color: var(--fontcolor)
 }
 
 .mobilemenu a {
-  color: var(--menutextcolor);
+  color: var(--menutextcolor)
 }
 
 .mobilemenu a:hover {
-  color: var(--fonthovercolor);
+  color: var(--fonthovercolor)
 }
 
 .mobilemenu nav {
@@ -74,4 +61,79 @@ a:hover {
 
 #menu {
   background-color: var(--menubackgroundcolor);
+}
+
+.flex-centering{
+  display: flex;
+  height: 100%;
+  width:100%;
+  flex-flow: column;
+  align-items: center;
+}
+
+.flex-container{
+  width: 98vw;
+  height: 46vw;
+  display: flex;
+  max-height: 36vh;
+  max-width: 90vh;
+}
+
+.flex-gap{
+  height: 3vw;
+  max-height: 3vh;
+}
+
+.flexbox1{
+  width: 45%;
+  border-style: solid;
+  border-color: var(--fontcolor) !important;
+  border-width: 1px;
+  margin-left: 3.2%;
+}
+
+.studierende{
+  background-image: url(https://static.wixstatic.com/media/69d310_0d9e356d8e6947cb9ba0556bbe996242~mv2.jpg);
+  background-size:cover;
+}
+
+.alumni{
+  background-image: url(https://static.wixstatic.com/media/69d310_9daea12730484a019120d55c93626813~mv2.jpg);
+  background-size:cover;
+}
+
+.ausstellungen{
+  background-image: url(https://static.wixstatic.com/media/69d310_f8f28d49016847dea1c3dc5733605fd6~mv2.jpg);
+  background-size:cover;
+}
+
+.hauptseite{
+  background-image: url(https://static.wixstatic.com/media/69d310_9bf7ff8bed9848e7a8a54e91fdb288a7~mv2.jpg);
+  background-size:cover;
+}
+
+.flexbox1 a {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--fontcolor);
+  background-color: #191919;
+  transition: 0.5s all ease;
+}
+
+.flexbox1 a:hover{
+  background-color: transparent;
+}
+
+.flexbox1:hover{
+  scale: 1.02;
+  transition: 0.5s all ease;
+  border-color: var(--fonthovercolor) !important;
+}
+
+.flex-text{
+  display:flex;
+  font-family: Lexend;
 }

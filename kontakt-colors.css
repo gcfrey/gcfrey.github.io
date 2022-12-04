@@ -65,8 +65,7 @@ a:hover {
 }
 
 .mobilemenu a:hover {
-  color: var(--fonthovercolor) 
-}
+  color: var(--fonthovercolor) }
 
 .mobilemenu nav {
   background-color: var(--menubackgroundcolor);
